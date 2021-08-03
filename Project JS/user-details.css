@@ -1,0 +1,98 @@
+body{
+    max-width: 1505px;
+}
+.usersInfo-box{
+    background: brown;
+    padding: 20px;
+}
+
+.usersInfo-box h2{
+    text-align: center;
+    color: #a7801f;
+    font-size: 29px;
+    text-decoration: underline;
+
+}.usersInfo-box h3{
+    color: #e7b87d;
+    font-size: 20px;
+    text-decoration: initial;
+
+}
+
+.usersInfo-box ul{
+    color: #7d5d1c;
+    background: wheat;
+    padding: 3px 0px 5px 30px;
+    border:5px solid #e7b87d ;
+
+
+}
+
+.usersInfo-box ul h3{
+    color: darkred;
+    background: wheat;
+
+}
+
+.usersInfo-box ul>li{
+    background: wheat;
+    margin: 10px;
+    font-size: 16px;
+
+}
+
+.usersInfo-box button{
+    margin: 20px;
+    background: wheat;
+    font-size: 16px;
+    width: 90%;
+    height: 40px;
+    color: darkred;
+
+
+}
+
+.postsOfUser{
+
+    display: flex;
+    flex-wrap: wrap;
+    background: brown;
+    padding: 20px;
+}
+
+.postsOfUser div{
+    justify-content: space-evenly;
+
+}
+
+.postsOfUser p {
+    color: darkred;
+    background: #c4b161;
+    padding: 10px;
+    border:5px solid #e7b87d ;
+    width: 240px;
+    margin: 10px;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    height: 120px;
+
+
+}
+.postsOfUser h4{
+    color: #7d5d1c;
+    font-size: 16px;
+}
+
+.postsOfUser button{
+    margin: 10px 0px 30px 40px;
+    background: wheat;
+    font-size: 16px;
+    width: 200px;
+    height: 30px;
+    color: darkred;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
